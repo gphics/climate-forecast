@@ -4,5 +4,5 @@ export default function constructUrl(lat, lon) {
   // console.log
 
   // const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}.04&appid=b0eda6450d2e9d9530b819b524dc52da`;
-  return prev
+  return prev;
 }

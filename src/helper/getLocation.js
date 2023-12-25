@@ -1,11 +1,11 @@
-import storeCtrl from "./storeCtrl"
+import storeCtrl from "./storeCtrl";
 const options = { enableHighAccuracy: true };
 
 function onSuccess(position) {
-    const {latitude, longitude} = position.coords
-    storeCtrl.setItem("lat", latitude)
-    storeCtrl.setItem("lon", longitude)
-    alert("your location is stored. Thanks for trusting us.")
+  const { latitude, longitude } = position.coords;
+  storeCtrl.setItem("lat", latitude);
+  storeCtrl.setItem("lon", longitude);
+  alert("your location is stored. Thanks for trusting us.");
 }
 
 function onError(err) {

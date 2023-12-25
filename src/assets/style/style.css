@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    transition: all .5s;
+}
+
+/* nav start */
+.main-nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(102, 102, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-nav a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* nav end */
+
+/* Home-page  start*/
+
+.home-page {
+    width: 100vw;
+
+
+
+}
+
+.home-page main {
+    margin: 5px 2%;
+    display: flex;
+    font-size: .8em;
+    align-items: center;
+
+}
+
+img {
+    width: 50px
+}
+
+.home-intro {
+    width: 48%;
+    margin-top: 5%
+}
+
+.home-hero {
+    width: 48%;
+    margin-top: 5%
+}
+
+.home-hero img {
+    width: 98%;
+    max-width: 300px;
+}
+
+.home-hero img:hover {
+    transform: scale(1.04) translateX(-10px);
+}
+
+.get-started-link {
+    margin: 10px 0;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(102, 102, 216);
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.get-started-link:hover {
+    transform: scale(1.04) translateX(10px);
+}
+
+@media (max-width:700px) {
+    .home-page main {
+        flex-direction: column;
+    }
+
+    .home-hero,
+    .home-intro {
+        width: 97%;
+        margin: 2% auto;
+    }
+}
+
+/* Home page end */
+
+
+/* climate page start */
+
+.climate-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.climate-loading {
+    align-self: center;
+    /* justify-self: ; */
+    font-size: 2em;
+    height: 50px;
+    margin: 50px auto;
+    ;
+}
+
+.climate-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.climate-each{
+    margin:10px auto;
+    width:80vw;
+    padding:20px;
+    background-color: rgb(102, 102, 216);
+    border-radius: 5px;
+}
+.climate-each:hover{
+    transform: scale(1.02);
+}
+.climate-each ul{
+    margin-left: 5%;
+    
+}
+.note{
+    background-color: orangered;
+    border-radius: 0;
+}
