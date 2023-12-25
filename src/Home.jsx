@@ -7,10 +7,9 @@ function Home() {
             <main>
                 <section className="home-intro">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit fugit itaque distinctio architecto, culpa earum labore quos nobis beatae perferendis quo voluptates minus minima mollitia, eos porro possimus aperiam maiores! .Tempore dolorem beatae delectus similique omnis quibusdam, deleniti autem, obcaecati adipisci ratione neque at minus, temporibus vel quia assumenda recusandae. Eligendi ullam ut sunt quibusdam suscipit voluptas accusamus mollitia eaque.
-
+                        Climate-forecast is a website created for farmers to get real-time climate data and recommendations base on the climate data the best time for planting so as to maximise their productivity and efficiency.
                     </p>
-                    <a href="/climate" className="get-started-link">Get Started</a>
+                    <a href="/climate-info" className="get-started-link">Get Started</a>
                 </section>
                 <section className="home-hero">
                     <img src={Hero} alt="climate image" />
